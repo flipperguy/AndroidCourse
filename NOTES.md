@@ -39,6 +39,8 @@ https://developer.android.com/studio/releases/gradle-plugin
 ## Agenda
 
 . Android Debugger
+https://developer.android.com/studio/debug
+
 . Lifecycle
 
 Architecture Components (with Java code)
