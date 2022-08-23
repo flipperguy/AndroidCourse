@@ -33,6 +33,9 @@ https://developer.android.com/codelabs/kotlin-android-training-lifecycles-loggin
 Starter Code
 https://github.com/flipperguy/DessertClicker-Starter-Java
 
+Gradle Plugin
+https://developer.android.com/studio/releases/gradle-plugin
+
 ## Agenda
 
 . Android Debugger
