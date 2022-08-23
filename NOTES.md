@@ -46,6 +46,14 @@ https://developer.android.com/studio/debug
 Architecture Components (with Java code)
 https://developer.android.com/codelabs/android-room-with-a-view
 
+Activity Lifecycle
+https://developer.android.com/reference/android/app/Activity
+
+Fragment Lifecycle Diagram
+https://developer.android.com/guide/fragments/lifecycle
+
+
+
 
 
 
