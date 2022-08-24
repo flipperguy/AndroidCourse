@@ -2,10 +2,10 @@
 
 ## Agenda
 
-. Review Outline
-. Introduction slides
-. Instructor Intro
-. Student Intro
+- Review Outline
+- Introduction slides
+- Instructor Intro
+- Student Intro
 
 Course Material
 
@@ -38,10 +38,10 @@ https://developer.android.com/studio/releases/gradle-plugin
 
 ## Agenda
 
-. Android Debugger
+Android Debugger
 https://developer.android.com/studio/debug
 
-. Lifecycle
+Lifecycle
 
 Architecture Components (with Java code)
 https://developer.android.com/codelabs/android-room-with-a-view
@@ -59,18 +59,19 @@ https://developer.android.com/studio/inspect/database
 
 ## Agenda
 
-. Continuation of Room with a View exercise
-. Code Review
-. App Inspector
-. CardView
-. Layout Inspector
-. Material Design
-. AS features (code formatter, inspection)
+- Continuation of Room with a View exercise
+- Code Review
+- App Inspector
+- CardView
+https://material.io/components/cards#anatomy
+- Layout Inspector
+- Material Design
+- AS features (code formatter, inspection)
 
 startActivityForResult is depracted
 https://developer.android.com/training/basics/intents/result
 
-. Networking
+- Networking
 
 #  Day 4
 
