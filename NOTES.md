@@ -80,6 +80,23 @@ https://developer.android.com/training/basics/intents/result
 - Extending existing views
 - Creating new view
 
+Java Advanced Training CodeLabs
+https://developer.android.com/courses/advanced-training/toc
+
+Unit 5: Advanced graphics and views
+Lesson 10: Custom views
+
+10.1 Part A: Customize View subclasses
+10.1 Part B: Custom view from scratch
+
+Lesson 11: Canvas
+
+11.1 Part A: Create Canvas objects
+11.1 Part B: Draw on Canvas objects
+11.1 Part C: Apply clipping to Canvas objects
+11.2: SurfaceView objects
+
+
 Flipper (live layout)
 https://fbflipper.com/
 
