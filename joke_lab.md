@@ -18,16 +18,79 @@ Retrofit Documentation
 
 https://square.github.io/retrofit/
 
+# Create a JokeActiviy classs
+
+Use the wizard to create a new Empty Activity names `JokeActivity` which will call the joke api and display the returned random joke.
+
 # Create layout for Joke Activity
 
-this is step 1
+Add view elements to contain the joke text and to initiate the call.  
+
+Following is a simple layout you can use or feel free to be more creative.
 
 ```
-lsflsdjfsf
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JokeActivity">
+
+    <TextView
+        android:id="@+id/joke_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="24sp"
+        android:layout_margin="@dimen/big_padding"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/joke_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_new_joke"
+        android:layout_marginBottom="@dimen/big_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 # Wire the layout views in the actiity
 
+In `JokeActivity` wire up the view elements and create stub methods to call the api and populate the text view.
+
+```
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_joke);
+
+        jokeContent = findViewById(R.id.joke_content);
+
+        Button jokeButton = findViewById(R.id.joke_button);
+        jokeButton.setOnClickListener( view -> {
+            Log.i("JokeActivity","clicked joke button");
+            getNewJoke();
+        });
+    }
+
+    private void getNewJoke() {
+        makeJokeCall();
+    }
+
+     private void makeJokeCall() {
+        jokeContent.setText("This is a new joke. The text is really long and should wrap.");
+     }
+```
+
+Run the app the verify that the views are wired correctly.
 
 # Add the Retrofit dependencies
 
