@@ -66,6 +66,7 @@ Following is a simple layout you can use or feel free to be more creative.
 In `JokeActivity` wire up the view elements and create stub methods to call the api and populate the text view.
 
 ```
+    TextView jokeContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
