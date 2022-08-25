@@ -61,7 +61,7 @@ Following is a simple layout you can use or feel free to be more creative.
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-# Wire the layout views in the actiity
+# Wire the layout views in the activity
 
 In `JokeActivity` wire up the view elements and create stub methods to call the api and populate the text view.
 
@@ -105,9 +105,11 @@ implementation 'com.squareup.okhttp3:okhttp:4.7.2'
 # Create a `joke` package to contain joke related classes
 
 
-# Create a Model class for a Joke item
+# Create Model classes a Joke item
 
-This will be used to serialize the JSON returned by the request and turn it into a Java object 
+This will be used to serialize the JSON returned by the request and turn it into a Java object.
+
+Examine the response JSON to determine which model classes you need and what properties they should have.
 
 ```
 {
@@ -122,16 +124,55 @@ This will be used to serialize the JSON returned by the request and turn it into
 }
 ```
 
-JokeValueModel
+One approach is to use two models, a response model and a value model contained in the response.
+
+Create a response model called `JokeResponseModel`
 
 ```
-lsflsdjfsf
+public class JokeResponseModel {
+
+    @SerializedName("type")
+    private String type;
+
+    @SerializedName("value")
+    private JokeValueModel value;
+
+    public String getType() {
+        return type;
+    }
+
+    public JokeValueModel getValue() {
+        return value;
+    }
+}
 ```
 
-JokeValueModel
+Create a value model called `JokeValueModel`
 
 ```
-lsflsdjfsf
+public class JokeValueModel {
+
+    @SerializedName("id")
+    private int id;
+
+    @SerializedName("joke")
+    private String joke;
+
+    @SerializedName("catgories")
+    private ArrayList<String> categories;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getJoke() {
+        return joke;
+    }
+
+    public ArrayList<String> getCategories() {
+        return categories;
+    }
+}
 ```
 
 # Create joke API class
@@ -226,3 +267,11 @@ In `AndroidManifest.xml` in the "application" tag add an attribute to allow clea
 ```
 android:usesCleartextTraffic="true"
 ```
+
+# Additional features
+
+Here are some ideas for additional features
+
+- Fetch a list of jokes
+- Save jokes in a local database
+- Display jokes in a recycler view
