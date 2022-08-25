@@ -107,6 +107,17 @@ https://developer.android.com/codelabs/advanced-android-training-fragments?index
 newsletter
 https://kenkousen.substack.com/subscribe?utm_medium=email&utm_source=post&utm_content=69711714
 
+# Day 5
+
+Background Workers
+
+https://developer.android.com/codelabs/android-workmanager-java#0
+
+Notifications
+
+James Harmon - Flipper Talk
+https://chicagoroboto.com/session-videos/?vimeography_gallery=5&vimeography_video=629411995
+
 
 
 
