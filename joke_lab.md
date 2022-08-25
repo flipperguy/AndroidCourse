@@ -29,9 +29,31 @@ lsflsdjfsf
 
 Update the `build.gradle` file.
 
+```
+implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+```
+
+# Create a `joke` package to contain joke related classes
+
+
 # Create a Model class for a Joke item
 
 This will be used to serialize the JSON returned by the request and turn it into a Java object 
+
+```
+{
+  "type": "success",
+  "value": {
+    "id": 451,
+    "joke": "Chuck Norris writes code that optimizes itself.",
+    "categories": [
+      "nerdy"
+    ]
+  }
+}
+```
 
 ```
 lsflsdjfsf
