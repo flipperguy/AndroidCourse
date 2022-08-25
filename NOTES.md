@@ -100,6 +100,9 @@ Lesson 11: Canvas
 Flipper (live layout)
 https://fbflipper.com/
 
+Fragment Exercise
+https://developer.android.com/codelabs/advanced-android-training-fragments?index=..%2F..advanced-android-training#0
+
 
 newsletter
 https://kenkousen.substack.com/subscribe?utm_medium=email&utm_source=post&utm_content=69711714
