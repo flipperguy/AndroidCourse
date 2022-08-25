@@ -71,9 +71,14 @@ https://material.io/components/cards#anatomy
 startActivityForResult is depracted
 https://developer.android.com/training/basics/intents/result
 
-- Networking
 
 #  Day 4
+
+## Agenda
+
+- Networking
+- Extending existing views
+- Creating new view
 
 Flipper (live layout)
 https://fbflipper.com/
