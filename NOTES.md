@@ -1,3 +1,9 @@
+Android Studio with Java
+
+James Harmon
+jamesharmon@gmail.com
+
+
 # Day 1
 
 ## Agenda
@@ -121,10 +127,4 @@ https://chicagoroboto.com/session-videos/?vimeography_gallery=5&vimeography_vide
 
 Sample Circular Slide
 https://github.com/milosmns/circular-slider-android
-
-
-
-
-
-
 
