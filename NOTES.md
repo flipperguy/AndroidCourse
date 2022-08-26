@@ -119,6 +119,8 @@ James Harmon - Flipper Talk
 https://chicagoroboto.com/session-videos/?vimeography_gallery=5&vimeography_video=629411995
 
 
+Sample Circular Slide
+https://github.com/milosmns/circular-slider-android
 
 
 
