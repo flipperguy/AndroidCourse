@@ -2,6 +2,7 @@ Android Studio with Java
 
 James Harmon
 jamesharmon@gmail.com
+https://www.linkedin.com/in/jamesharmonandroid/
 
 
 # Day 1
@@ -114,6 +115,9 @@ newsletter
 https://kenkousen.substack.com/subscribe?utm_medium=email&utm_source=post&utm_content=69711714
 
 # Day 5
+
+Facebook Flipper
+https://fbflipper.com/
 
 Background Workers
 
